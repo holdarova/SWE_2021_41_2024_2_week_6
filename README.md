@@ -20,15 +20,15 @@ This Python code defines a function isHappy(n) that checks if a given number n i
 docker exec mycontainer cat /etc/os-release
 ```
 This code retrieves and displays the contents of the /etc/os-release file from the mycontainer.
-```
-docker exec mycontainer git --version
+```bash
+docker exec mycontainer git -version
 ```
 This code is used to check the version of Git installed inside the running Docker container named mycontainer.
-```
+```bash
 docker exec mycontainer python3 --version
 ```
 This code is used to check the version of Python installed inside the running Docker container named mycontainer.
-```
+```bash
 docker inspect --format="{{ .HostConfig.Binds }}" mycontainer
 ```
 This code will output a list of volume bindings for the mycontainer. These bindings represent the directories or files on the host machine that are mounted into the container.
