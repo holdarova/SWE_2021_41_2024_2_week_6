@@ -32,3 +32,4 @@ This code is used to check the version of Python installed inside the running Do
 docker inspect --format="{{ .HostConfig.Binds }}" mycontainer
 ```
 This code will output a list of volume bindings for the mycontainer. These bindings represent the directories or files on the host machine that are mounted into the container.
+
