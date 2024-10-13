@@ -13,6 +13,7 @@ n = int(input("Enter a number: "))
 print(isHappy(0))
 ```
 This Python code defines a function isHappy(n) that checks if a given number n is a "happy number." A happy number is defined as a number which, when you repeatedly replace it by the sum of the squares of its digits, eventually reaches 1. If the number ends up in a cycle that does not include 1, it is considered an "unhappy" number.
+
 ---
 # Week 5 Assignment
 ```bash
